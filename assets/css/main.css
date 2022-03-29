@@ -112,6 +112,60 @@ body.ligth-theme {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-block: 1.5rem;
+}
+.logo {
+  font-size: var(--font-size-md);
+  color: var(--light-color);
+}
+.menu {
+  position: absolute;
+  top: 8.5rem;
+  right: 1.5rem;
+  width: 23rem;
+  padding: 1.5rem;
+  background-color: var(--secondary-background-color);
+  /* opacity: 0;
+  transform: scale(0); */
+  transition: opacity 0.25s ease-in;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+.menu > .list {
+  flex-direction: column;
+}
+
+.list-link.current {
+  color: var(--light-color);
+}
+
+.close-menu-icon {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.list-link:hover,
+.btn:hover,
+.btn:hover span {
+  color: var(--light-color);
+}
+.moon-icon {
+  display: none;
+}
+
+.ligth-theme .sun-icon {
+  display: none;
+}
+
+.light-theme .moon-icon {
+  display: block;
 }
 
 /* Header JavaScript Styles */
