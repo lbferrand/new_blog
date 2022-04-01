@@ -666,6 +666,27 @@ body.light-theme {
 
 .author-image-box {
   position: relative;
+  height: var(--item-min-height-sm);
+}
+.author-about {
+  display: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
+.author-name {
+  color: var(--light-color);
+  font-weight: 400;
+}
+
+.author p {
+  max-width: 50rem;
+  margin-bottom: 1rem;
+}
+
+.author-about .social-media {
+  margin-top: auto;
+  margin-bottom: 0;
+}
 /* Media queries */
