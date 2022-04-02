@@ -670,7 +670,7 @@ body.light-theme {
 
 .author-image-box {
   position: relative;
-  height: var(--item-min-height-sm);
+  height: var(--item-min-height-md);
 }
 .author-about {
   display: 1.5rem;
