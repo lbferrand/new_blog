@@ -10,11 +10,11 @@
   --hover-dark-color: var(--primary-background-color);
   --gradient-color: linear-gradient(
     115deg,
-    #4fcf70,
-    #fad648,
-    #a767e5,
-    #12bcfe,
-    #44ce7b
+    #f30f0f,
+    #e9431a,
+    #fff,
+    #4063e4,
+    #0a19f4
   );
   --transparent-light-color: rgba(255, 255, 255, 0.05);
   --transparent-dark-color: rgba(0, 0, 0, 0.75);
